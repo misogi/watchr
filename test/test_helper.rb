@@ -4,7 +4,7 @@ require 'tempfile'
 require 'fileutils'
 
 require 'minitest/autorun'
-require 'mocha'
+require 'mocha/setup'
 require 'every'
 begin
   require 'redgreen' #http://gemcutter.org/gems/mynyml-redgreen
